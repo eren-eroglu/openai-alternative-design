@@ -15,10 +15,10 @@
 
 </head>
 <body>
-  <div class="main-container h-100">
+  <div class="main-container">
         <nav class="nav bg-primary">
                 <button onclick="mobileMenu()" id="menuBars" type="button" class="toggle"><i id="menuIcon" class="fa-solid fa-bars animatedtoggle"></i></button>
-                <img alt="logo" class="logo" src="/openai.png">
+                <img alt="logo" class="logo" src="./openai.png">
                 <ul id="menuList" class="menu inactive">
                   <li class="item active"><a href="#"><i class="fa-light fa-ticket"></i> Chat <img src="robot.svg" alt="robot" style="height: 25px; margin: 5px;"> </a></li>
                   <li class="item"><a href="#"><i class="fa-light fa-ferry"></i>OpenAI Discord <img src="./discord.svg" alt="discord" style="height: 25px; margin: 8px;"></a></li>
@@ -27,19 +27,20 @@
               
                 </ul>
               </nav>
-              <div class="mt-5 second-container d-flex flex-column justify-content-center align-items-center align-content-center">
+              <div class="w-100 d-flex flex-column justify-content-center align-items-center">
                 
                   <h3 class="text-center brand-text mt-5 mb-3 ">ChatGPT</h3>
-                  <div class="intro w-75 d-flex justify-content-around align-content-center align-items-center ">
-                  <div class="mt-5 p-1 p"><h3>Examples 🏆    </h3>
+                  <div class="d-flex flex-lg-row flex-md-column flex-sm-column flex-wrap">
+                  <div class="p-3"><h3>Examples 🏆    </h3>
                   <p>Explain quantum computing in simple terms</p>
                 <p>Got any creative ideas for a 10 year old’s birthday?</p><p>How do I make an HTTP request in Javascript?</p></div>
-                  <div class="m-3 p-1 p"><h3>Capabilities 🎇</h3> <p>Remembers what user said earlier in the conversation</p> <p>Allows user to provide follow-up corrections</p> <p>Trained to decline inappropriate requests</p>    </div>
-                  <div class="m-3 p-1 p"><h3>Limitations 🔛  </h3>
+                  <div class="p-3"><h3>Capabilities 🎇</h3> <p>Remembers what user said earlier in the conversation</p> <p>Allows user to provide follow-up corrections</p> <p>Trained to decline inappropriate requests</p>    </div>
+                  <div class="p-3"><h3>Limitations 🔛  </h3>
                   <p>May occasionally generate incorrect information</p>
                   <p>May occasionally produce harmful instructions or biased content</p>
                   <p>Limited knowledge of world and events after 2021</p>
                   </div>
+                 
                 </div>
                
                 <input type="text" placeholder="Ask something to AI" class="input form-control p-3" style="bottom: 0; position: absolute;">
