@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css">
-
+      <script defer src="main.js"></script>
 </head>
 <body>
   <div class="main-container">
@@ -21,14 +21,14 @@
                 <img alt="logo" class="logo" src="./openai.png">
                 <ul id="menuList" class="menu inactive">
                   <li class="item active"><a href="#"><i class="fa-light fa-ticket"></i> Chat <img src="robot.svg" alt="robot" style="height: 25px; margin: 5px;"> </a></li>
-                  <li class="item"><a href="#"><i class="fa-light fa-ferry"></i>OpenAI Discord <img src="./discord.svg" alt="discord" style="height: 25px; margin: 8px;"></a></li>
-                  <li class="item"><a href="#"></i>Updates <img src="./update.svg" alt="update" style="height: 25px; margin: 8px;"></a></li>
+                  <li class="item"><a href="https://discord.com/invite/openai"><i class="fa-light fa-ferry"></i>OpenAI Discord <img src="./discord.svg" alt="discord" style="height: 25px; margin: 8px;"></a></li>
+                  <li class="item"><a href="https://help.openai.com/en/collections/3742473-chatgpt"></i>Updates <img src="./update.svg" alt="update" style="height: 25px; margin: 8px;"></a></li>
                   <li class="item"><a href="#"><i class="fa-light fa-circle-question"></i>Log Out <img src="./log-out.svg" style="height: 25px; margin: 8px;"> </a></li>
               
                 </ul>
               </nav>
 
-              <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+              <div class="w-100 d-flex flex-column justify-content-center align-items-center examples">
                 
                   <h3 class="text-center brand-text mt-5 mb-3 ">ChatGPT</h3>
                   <div class="d-flex flex-lg-row flex-md-column flex-sm-column flex-wrap">
@@ -45,7 +45,7 @@
                 </div>
                
                
-                <input type="text" placeholder="Ask something to AI" class="input askai form-control p-3 fixed-bottom">
+                <input type="text" id="input" placeholder="Ask something to AI" class="input askai form-control p-3 fixed-bottom">
               </div>
           </div>
 </body>
