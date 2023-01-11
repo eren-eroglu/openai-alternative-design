@@ -4,12 +4,12 @@
 }
 .logo {
   height: 100%;
-}
+} 
 .nav {
   display: flex;
   align-items: center;
   
-  height: 5.5rem;
+  height: 5rem;
   padding: 0 1em 0 1em;
   /* Feel free to use a different font */
   font-family: "Open Sans", sans-serif;
